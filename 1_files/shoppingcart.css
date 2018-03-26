@@ -1,0 +1,121 @@
+#breadcrumbNav {
+	color: #2f2e2e;
+	margin-bottom: 35px;
+}
+#breadcrumbNav a:link {
+	color: #582a12;
+}
+#checkoutNav {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#checkoutNav li {
+	float: left;
+}
+#checkoutNav a {
+	background: url(lnkCheckout.jpg) 0 0 no-repeat;
+	display: block;
+	height: 0;
+	padding-top: 32px;
+	overflow: hidden;
+	width: 79px;
+}
+#checkoutNav #liCheckout a {
+	background: url(lnkCheckout.jpg) -79px 0 no-repeat;
+}
+#productsContent {
+	padding-bottom: 60px;
+	position: relative
+}
+#productsDisplay h2 {
+	margin-bottom: 20px;
+}
+.shoppingItem {
+	float: left;
+	width: 360px;
+	height: 180px;
+}
+.shoppingItem img {
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+.shoppingItem h3 {
+	white-space: normal;
+	padding-bottom: 20px;
+}
+.shoppingItem ul {
+	float: left;
+	width: 150px;
+}
+.shoppingItem li {
+	border-bottom: dotted 1px #582a12;
+	color: #582a12;
+	padding: 5px 0;
+}
+.shoppingItem li a {
+	display: block;
+	float: left;
+	width: 155px;
+}
+.cart {
+	float: left;
+	width: 600px;
+}
+.cart h3 {
+	float: left;
+	padding-bottom: 20px;
+}
+.cart h4 {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.cart table {
+	float: left;
+	width: 600px;
+}
+.cart td {
+	color: #582a12;
+	padding: 5px 0;
+}
+
+.smallfont { 
+	font-size: 9px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #582a12; 
+}
+
+.error { 
+	color: #CC0000; 
+	font-weight: bold;
+}
+
+
+/***** NAV *****/
+#productsLeftCol ul li a {
+	width: 177px;
+}
+#productsLeftCol ul li {
+display:block;
+height:30px;
+overflow:hidden;
+text-indent:-123456em;
+}
+li#breakfast {background: transparent url(navBg.jpg) 0px 0px no-repeat;}
+
+li#donuts {background: transparent url(navBg.jpg) 0px -32px no-repeat;}
+
+li#coffeecakes {background: transparent url(navBg.jpg) 0px -63px no-repeat;}
+
+li#loaves {background: transparent url(navBg.jpg) 0px -94px no-repeat;}
+	
+li#junior {background: transparent url(navBg.jpg) 0px -156px no-repeat;}
+
+li#pies {background: transparent url(navBg.jpg) 0px -156px no-repeat;}
+	
+li#cookies {background: transparent url(navBg.jpg) 0px -187px no-repeat;}
+
+li#cakes {background: transparent url(navBg.jpg) 0px -218px no-repeat;}
+
+li#piesactive a:link {background: transparent url(navBg.jpg) 0px -125px no-repeat;}

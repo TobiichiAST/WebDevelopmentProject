@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+	<title>Prantl's Bakery - Home </title>
+	<meta name = "author" content = "Junhui He"/>
+	<meta name = "keywords" content = "Information System, Web Development Project, Carnegie Mellon University, CSS, javascript, jquery, Prantl's Bakery"/>
+	<meta name = "descriptions" content = "The Web Development Project which is aimed at making a better website for the Prantl's Berkery in Pittsburgh."/>
+
+	<meta name = "citation" content = "Special thanks for following website for uploading reusable images free for this page.
+	https://commons.wikimedia.org/wiki/File:Amsterdam_-_Bakery_-_0856.jpg" />
+
+	<!-- Stylesheets -->
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css" />
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/jquery-ui.css" />
+
+	<!--google font sheet-->
+	<!--font link:https://fonts.google.com-->
+	<link href = "https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond|Sorts+Mill+Goudy" rel="stylesheet">
+	<link href = "https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	
+	<!-- Javascript and jquery -->
+	<script type = "text/javascript" src = "js/jquery-3.3.1.min.js"></script>
+	<script type = "text/javascript" src = "js/scripts.js"></script>
+	<script type = "text/javascript" src = "js/jquery-ui.js"></script>
+	<script src = "http://code.highcharts.com/highcharts.js"></script>
+	<script src = "http://code.highcharts.com/modules/exporting.js"></script>
+
+	<script type = "text/javascript">
+		$(function(){
+			$("#shady-graph").highcharts({
+				title: {
+					text: 'Popular times for Shadyside'
+				},
+
+				subtitle: {
+					text: '(avg per day)'
+				},
+
+				xAxis:{
+					title: {
+						text: 'Time'
+					},
+					type: 'category',
+				},
+
+				yAxis: {
+					title: {
+						text: 'Number of People'
+					}
+				},
+				legend: {
+					layout: 'vertical',
+					align: 'right',
+					verticalAlign: 'middle'
+				},
+
+				plotOptions: {
+					series: {
+						label: {
+							connectorAllowed: false
+						},
+						pointStart: 6
+					}
+				},
+
+				series: [{
+					showInLegend: false,
+					data: [['7 am', 10],['8 am', 8], ['9 am', 24], ['10 am', 5], ['11 am', 7], ['12 pm', 32], ['1 pm', 16], ['2 pm', 18], ['3 pm', 27], ['4 pm', 39], ['5 pm', 32] ]
+				}],
+			});
+		});
+
+		$(function(){
+			$("#down-graph").highcharts({
+				title: {
+					text: 'Popular times for Downtown'
+				},
+
+				subtitle: {
+					text: '(avg per day)'
+				},
+
+				xAxis:{
+					title: {
+						text: 'Time'
+					},
+					type: 'category',
+				},
+
+				yAxis: {
+					title: {
+						text: 'Number of People'
+					}
+				},
+				legend: {
+					layout: 'vertical',
+					align: 'right',
+					verticalAlign: 'middle'
+				},
+
+				plotOptions: {
+					series: {
+						label: {
+							connectorAllowed: false
+						},
+						pointStart: 6
+					}
+				},
+
+				series: [{
+					showInLegend: false,
+					data: [['7 am', 24],['8 am', 12], ['9 am', 16], ['10 am', 8], ['11 am', 11], ['12 pm', 19], ['1 pm', 15], ['2 pm', 18], ['3 pm', 13], ['4 pm', 21], ['5 pm', 35] ]
+				}],
+			});
+		});
+	</script>
+
+	
+	
+</head>
+
+<body>
+	<!-- main container starts -->
+	<div id = "container">
+
+		<!-- .header-wrapper starts -->
+		<div id = "header-wrapper">
+
+			<!-- #header1 starts -->
+			<div id = "header1">
+				<a href = "index.html">
+					<img src = "images/logo.png" alt = "logo image">
+				</a> 
+
+				<!-- #initial-menu starts -->
+				<nav>
+					<a href = "about.html">About</a>
+					<a href = "store_info.html">Store Information</a>
+					<a href = "order_online.html">Pricing & Order</a>
+					<a href = "celebrations.html">Celebrations</a>
+					<a href = "wedding.html">Wedding</a>
+				</nav>
+
+			</div><!-- #header1 ends -->
+
+			<!-- #header2 starts -->
+			<div id = "header2">
+				<div id = "header2content">
+					<a href = "index.html">
+						<img src = "images/logo2.png" alt = "logo image">
+					</a> 
+					<nav>
+						<a href = "about.html">About</a>
+						<a href = "store_info.html">Store Information</a>
+						<a href = "order_online.html">Pricing & Order</a>
+						<a href = "celebrations.html">Celebrations</a>
+						<a href = "wedding.html">Wedding</a>
+					</nav>
+				</div> <!--#header2content ends-->
+			</div> <!--#header2 ends-->
+		</div> <!-- #header-wrapper ends -->
+
+
+
+
+
+		<div id = "content">
+
+			<div id = "info-1">
+				<div id = "show_text">
+					<div id = "show_title">Store Information</div>
+					<div id = "show_sub_title">Where The Best Bakery Located</div>
+				</div>
+			</div>
+
+			<div id = "info-2">
+				<div id = "shady">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d869.8766750560197!2d-79.93334441611864!3d40.45165486846387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f211aed70341%3A0x10db72884d553d04!2sPrantl&#39;s+Bakery!5e0!3m2!1sen!2sus!4v1522012293756" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></br></br>
+					<h1>Shadyside</h1>
+					5525 Walnut Street</br>
+					Phone number: 412-621-2092</br>
+					Email: <a href = "mailto:info@prantlsbakery.com">info@prantlsbakery.com</a></br></br>
+					Monday: 9am – 4pm</br>
+					Tuesday – Saturday: 7:30am – 6pm</br>
+					Sunday: 9am – 4pm</br></br>
+					<div id = "shady-graph"></div></br>
+				</div>
+				<div id = "down">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24290.43697648538!2d-79.98498130573388!3d40.44639428854566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9e8bccef10009784!2sPrantl&#39;s+Bakery!5e0!3m2!1sen!2sus!4v1522012321302" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></br></br>
+					<h1>Downtown</h1>
+					438 Market Street</br>
+					Pittsburgh, PA 15222</br>
+					General Information: 412-471-6861</br>
+					Email: <a href = "mailto:infoms@prantlsbakery.com">infoms@prantlsbakery.com</a></br>
+					Monday – Friday: 7am – 6pm</br>
+					Saturday: 9am – 4pm</br>
+					Sunday: 10am – 3pm</br></br>
+					<div id = "down-graph"></div></br>
+				</div>
+			</div>
+
+			<div id = "info-3">
+				<form onsubmit="return validate()" action="mailto:infoneeded@prantlsbakery.com" method="post" enctype="text/plain">
+		
+					<fieldset>
+						<legend>Contact Us</legend>
+						<label for="uname">Name(required): </label>
+						<input type="text" id="uname" name="uname" value="Your Name" size="20" maxlength ="250" required></br>
+						<label for="txtDate">Zip Code:</label>
+						<input type="number" id="zip" name="zip" value="" size="20" maxlength ="250"></br></br>
+						
+						<label for="pswrd">Messenger to us: </label></br>
+						<textarea id="message" name="message" value="Type your Message" rows="20" cols="120" maxlength="9999"> </textarea><br/><br/>
+
+						<label for="email">Please provide your email address:</label>
+						<input type="email" id="email" name="email" value="" Placeholder = "abc@defg.com" required ></br>
+						<label>Please indicate if you want to receive updates via email:</label>
+						<input type="checkbox" id="signup" name="signup" value="yes">Yes!</br>
+
+						<input type ="image" src="images/submit.png" height = "50px" alt="Submit" name= "btnimage" value ="Submit">
+					</fieldset>
+
+				</form>
+			</div>
+
+
+		</div>
+		
+		<footer>
+			<hr/>
+			YOLO for the footer. <br/>
+			&copy; Junhui He 2018<br/>
+			<a href = "mailto:junhuih@andrew.cmu.edu">Email Me</a>
+			<a href = "http://cmu.edu" target="_blank">Carnegie Mellon University</a>
+		</footer>
+	</div>
+</body>
+</html>

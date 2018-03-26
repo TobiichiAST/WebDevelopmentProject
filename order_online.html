@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+	<title>Prantl's Bakery - Home </title>
+	<meta name = "author" content = "Junhui He"/>
+	<meta name = "keywords" content = "Information System, Web Development Project, Carnegie Mellon University, CSS, javascript, jquery, Prantl's Bakery"/>
+	<meta name = "descriptions" content = "The Web Development Project which is aimed at making a better website for the Prantl's Berkery in Pittsburgh."/>
+
+	<!-- Stylesheets -->
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css" />
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/jquery-ui.css" />
+
+	<!--google font sheet-->
+	<!--font link:https://fonts.google.com-->
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond|Sorts+Mill+Goudy" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	
+	<!-- Javascript and jquery -->
+	<script type="text/javascript" src = "js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src = "js/scripts.js"></script>
+	<script type="text/javascript" src = "js/jquery-ui.js"></script>
+
+	
+	
+</head>
+
+<body>
+	<!-- main container starts -->
+	<div id = "container">
+
+		<!-- .header-wrapper starts -->
+		<div id = "header-wrapper">
+
+			<!-- #header1 starts -->
+			<div id = "header1">
+				<a href = "index.html">
+					<img src = "images/logo.png" alt = "logo image">
+				</a> 
+
+				<!-- #initial-menu starts -->
+				<nav>
+					<a href = "about.html">About</a>
+					<a href = "store_info.html">Store Information</a>
+					<a href = "order_online.html">Pricing & Order</a>
+					<a href = "celebrations.html">Celebrations</a>
+					<a href = "wedding.html">Wedding</a>
+				</nav>
+
+			</div><!-- #header1 ends -->
+
+			<!-- #header2 starts -->
+			<div id = "header2">
+				<div id = "header2content">
+					<a href = "index.html">
+						<img src = "images/logo2.png" alt = "logo image">
+					</a> 
+					<nav>
+						<a href = "about.html">About</a>
+						<a href = "store_info.html">Store Information</a>
+						<a href = "order_online.html">Pricing & Order</a>
+						<a href = "celebrations.html">Celebrations</a>
+						<a href = "wedding.html">Wedding</a>
+					</nav>
+				</div> <!--#header2content ends-->
+			</div> <!--#header2 ends-->
+		</div> <!-- #header-wrapper ends -->
+
+
+
+
+
+		<div id = "content">
+
+			<div id = "price-1">
+				<div id = "show_text">
+					<div id = "show_title">Pricing & Order</div>
+					<div id = "show_sub_title">Excellent Price and Choice</div>
+				</div>
+			</div>
+
+			<div id="price-2">
+
+				<div id = "show_title">Best Cake With Best Price</div>
+				<div id = "show_sub_title">Our wedding cakes vary in price, depending on type, size, and “extras” such as special fillings, pillars, etc. For example, the cakes seen above are in the $3.25 – $3.75 per serving range.</div>
+				<div id = "order">
+					<a href = "http://www.bakesmartonline.com/prantls/selectproduct.php?sub=Pies+%26+Tarts">
+						<img src = "images/order_now_2.png" alt = "order_now">
+					</a> 
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="images/price-2-1.png">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="images/price-2-2.png">
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="images/price-2-3.png">
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span> 
+					<span class="dot" onclick="currentSlide(2)"></span> 
+					<span class="dot" onclick="currentSlide(3)"></span> 
+				</div>
+
+				<script>
+					var slideIndex = 1;
+					showSlides(slideIndex);
+				</script>
+			</div>
+
+
+		</div>
+		
+		<footer>
+			<hr/>
+			YOLO for the footer. <br/>
+			&copy; Junhui He 2018<br/>
+			<a href = "mailto:junhuih@andrew.cmu.edu">Email Me</a>
+			<a href = "http://cmu.edu" target="_blank">Carnegie Mellon University</a>
+		</footer>
+	</div>
+</body>
+</html>
