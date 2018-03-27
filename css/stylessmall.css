@@ -1,0 +1,130 @@
+@media screen and (max-width: 1024px){
+	body {
+		font-size: 100%;
+	}
+
+	#header-wrapper #header1 {
+		width: 80%;
+		height: 100px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#header-wrapper #header1 img{
+		height: 60px;
+	}
+
+	#header-wrapper #header1 nav{
+		padding: 20px;
+	}
+
+	#header-wrapper #header1 nav a {
+		font-size: 0.875em;
+		font-weight: 400;
+		padding: 10px;
+	}
+
+	#header-wrapper #header2 {
+		width: 100%;
+	}
+
+	#header-wrapper #header2 #header2content{
+		width: 80%;
+		left: 0;
+		right: 0;
+	}
+
+	#header-wrapper #header2 #header2content img{
+		height: 70px;
+	}
+
+	#header-wrapper #header2 #header2content nav{
+		padding: 15px 35px 15px 15px;
+	}
+
+	#header-wrapper #header2 #header2content nav a {
+		font-size: 0.875em;
+		font-weight: 400;
+		padding: 10px;
+	}
+
+	#index-2 {
+		height: 720px;
+		background-size: cover;
+		background-image: url("../images/index-2.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin-bottom: 10px;
+	}
+
+	#index-2 img {
+		height: 50px;
+		padding-top: 10px;
+	}
+
+	#index-3 {
+		height: 600px;
+		width: 90%;
+		margin: 0px auto;
+	}
+
+	#index-3 iframe {
+		width: 400px;
+		height: 300px;
+		float: left;
+		padding-top: 100px;
+	}
+
+	#index-3 #information_text_right {
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 130px;
+		width: 40%;
+		float:right;
+		text-align: center;
+		margin: auto;
+	}
+	/*style of the texts of the main page*/
+	#show_text {
+		padding: 320px 0;
+	}
+
+	#show_title {
+		font-size: 70px;
+	}
+
+	#show_sub_title {
+		font-size: 25px;
+	}
+
+	#text_holder {
+		height: 200px;
+	}
+
+	#information_text_left {
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 50px;
+		width: 40%;
+		float:left;
+		text-align: center;
+		margin: auto;
+	}
+
+	#information_text_left_title{
+		font-size: 35px;
+		color: #00a665;
+	}
+
+	#information_text_right {
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 170px;
+		width: 40%;
+		float:right;
+		text-align: center;
+		margin: auto;
+	}
+
+	#information_text_right_title{
+		font-size: 35px;
+		color: #00a665;
+	}
+}

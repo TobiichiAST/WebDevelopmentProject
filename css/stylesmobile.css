@@ -1,0 +1,138 @@
+@media screen and (max-width: 480px){
+	body {
+		font-size: 100%;
+	}
+
+	#header-wrapper #header1 {
+		width: 90%;
+		height: 100px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#header-wrapper #header1 img{
+		padding-top: 10px;
+		height: 35px;
+	}
+
+	#header-wrapper #header1 nav{
+		padding: 5px
+	}
+
+	#header-wrapper #header1 nav a {
+		font-size: 7px;
+		font-weight: 400;
+		padding: 1px;
+	}
+
+	#header-wrapper #header2 {
+		width: 100%;
+	}
+
+	#header-wrapper #header2 #header2content{
+		width: 95%;
+		left: 0;
+		right: 0;
+	}
+
+	#header-wrapper #header2 #header2content img{
+		padding-top: 3px;
+		padding-left: 10px;
+		height: 35px;
+	}
+
+	#header-wrapper #header2 #header2content nav{
+		padding: 0px;
+	}
+
+	#header-wrapper #header2 #header2content nav a {
+		font-size: 7px;
+		font-weight: 400;
+		padding: 1px;
+	}
+
+	#index-1 {
+		height: 600px;
+	}
+
+	#index-2 {
+		height: 600px;
+		background-size: cover;
+		background-image: url("../images/index-2.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin-bottom: 10px;
+	}
+
+	#index-2 img {
+		height: 50px;
+		padding-top: 10px;
+	}
+
+	#index-3 {
+		height: 470px;
+		width: 95%;
+		margin: 0px auto;
+	}
+
+	#index-3 iframe {
+		width: 300px;
+		height: 200px;
+		margin: 0px auto;
+		padding-top: 20px;
+		float:top;
+	}
+
+	#index-3 #information_text_right {
+		float: bottom;
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 20px;
+		width: 95%;
+		text-align: center;
+		margin: auto;
+	}
+	/*style of the texts of the main page*/
+	#show_text {
+		padding: 250px 0;
+	}
+
+	#show_title {
+		font-size: 50px;
+	}
+
+	#show_sub_title {
+		font-size: 20px;
+	}
+
+	#text_holder {
+		height: 200px;
+	}
+
+	#information_text_left {
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 50px;
+		width: 40%;
+		float:left;
+		text-align: center;
+		margin: auto;
+	}
+
+	#information_text_left_title{
+		font-size: 35px;
+		color: #00a665;
+	}
+
+	#information_text_right {
+		font-family: 'Sorts Mill Goudy', serif;
+		padding-top: 170px;
+		width: 40%;
+		float:right;
+		text-align: center;
+		margin: auto;
+	}
+
+	#information_text_right_title{
+		font-size: 35px;
+		color: #00a665;
+	}
+}

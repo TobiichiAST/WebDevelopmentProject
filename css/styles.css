@@ -121,6 +121,8 @@ body {
 }
 
 #index-3 iframe {
+	width: 500px;
+	height: 400px;
 	float: left;
 	padding-top: 100px;
 }
