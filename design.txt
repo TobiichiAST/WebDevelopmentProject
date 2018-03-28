@@ -1,0 +1,2 @@
+For a new visitor navigating the site, the visitor can directly see all the navigation to all pages. There is no subpage of this website, because the information are not complex enough. When the user scroll down, the navigation bar would be black and it would be smaller.
+So I use the parallel design. This design makes the pages parallel and linked together, thus user can navigate to the website he/she wants quickly and easily.

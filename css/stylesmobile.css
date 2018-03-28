@@ -109,6 +109,7 @@
 	}
 
 	#about-2 img {
+		max-width: 90vw;
 		width: 90vw;
 		height: 90vw;
 		float: initial;
@@ -148,6 +149,7 @@
 	}
 
 	#about-5 img {
+		max-width: 90vw;
 		width: 90vw;
 		height: 90vw;
 		float: initial;
@@ -539,7 +541,7 @@
 	#data-1 {
 		height: 100vh;
 		background-size: cover;
-		background-image: url("../images/wedding-1.jpg");
+		background-image: url("../images/data-1.png");
 		background-repeat: no-repeat;
 		background-position: center center;
 		margin-bottom: 10px;
