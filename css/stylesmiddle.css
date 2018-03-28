@@ -179,6 +179,11 @@
 		height: 90vw;
 	}
 
+	#info-2 img{
+		width: 90vw;
+		height:90vw;
+	}
+
 	#info-2 #down {
 		font-family: 'Sorts Mill Goudy', serif;
 		width: 90vw;
