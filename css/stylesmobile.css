@@ -26,9 +26,9 @@
 	}
 
 	#header-wrapper #header1 nav a {
-		font-size: 10px;
+		font-size: 13px;
 		font-weight: 400;
-		padding: 1px;
+		padding: 4px;
 	}
 
 	#header-wrapper #header2 {
@@ -534,6 +534,27 @@
 	#wedding-7 #information_text_right img {
 		height:8vw;
 		padding-left: 0;
+	}
+
+	#data-1 {
+		height: 100vh;
+		background-size: cover;
+		background-image: url("../images/wedding-1.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin-bottom: 10px;
+	}
+
+	#data-2 {
+		height: auto;
+		width: 90vw;
+		margin: 0px auto;
+	}
+
+	#data-3 {
+		height: auto;
+		width: 90vw;
+		margin: 0px auto;
 	}
 	/*style of the texts of the main page*/
 	#show_text {

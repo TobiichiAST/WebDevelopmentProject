@@ -4,7 +4,7 @@
 	}
 
 	#header-wrapper #header1 {
-		width: 80%;
+		width: 90%;
 		height: 100px;
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -518,6 +518,27 @@
 	#wedding-7 #information_text_right img {
 		height:30px;
 		padding-left: 145px;
+	}
+
+	#data-1 {
+		height: 720px;
+		background-size: cover;
+		background-image: url("../images/wedding-1.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin-bottom: 10px;
+	}
+
+	#data-2 {
+		height: 60vw;
+		width: 80vw;
+		margin: 0px auto;
+	}
+
+	#data-3 {
+		height: 60vw;
+		width: 80vw;
+		margin: 0px auto;
 	}
 	/*style of the texts of the main page*/
 	#show_text {

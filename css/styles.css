@@ -578,7 +578,26 @@ body {
 	padding-left: 145px;
 }
 
+#data-1 {
+	height: 720px;
+	background-size: cover;
+	background-image: url("../images/data-1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 10px;
+}
 
+#data-2 {
+	height: 600px;
+	width: 80%;
+	margin: 0px auto;
+}
+
+#data-3 {
+	height: 600px;
+	width: 80%;
+	margin: 0px auto;
+}
 
 
 /*style of the texts of the main page*/

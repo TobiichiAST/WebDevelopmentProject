@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<head>
+	<title>Prantl's Bakery - Home </title>
+	<meta name = "author" content = "Junhui He"/>
+	<meta name = "keywords" content = "Information System, Web Development Project, Carnegie Mellon University, CSS, javascript, jquery, Prantl's Bakery"/>
+	<meta name = "viewport" content = "initial-scale=1">
+	<meta name = "descriptions" content = "The Web Development Project which is aimed at making a better website for the Prantl's Berkery in Pittsburgh."/>
+
+	<meta name = "citation" content = "Special thanks for following website for uploading reusable images free for this page.
+	https://commons.wikimedia.org/wiki/File:SocialNetworkAnalysis.png" />
+	<meta name = "thank" content = "Special thanks to highcharts by providing useful educational sources on how to make good chart" />
+
+	<!-- Stylesheets -->
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/styles.css" />
+	<link rel = "stylesheet" media = "all" type = "text/css" href = "css/jquery-ui.css" />
+	<link rel = "stylesheet" media = "screen and (max-width: 1300px)" href = "css/stylesmiddle.css" />
+	<link rel = "stylesheet" media = "screen and (max-width: 1024px)" href = "css/stylessmall.css" />
+	<link rel = "stylesheet" media = "screen and (max-width: 760px)" href = "css/stylesmobile.css" />
+
+	<!--google font sheet-->
+	<!--font link:https://fonts.google.com-->
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond|Sorts+Mill+Goudy" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	
+	<!-- Javascript and jquery -->
+	<script type="text/javascript" src = "js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src = "js/scripts.js"></script>
+	<script type="text/javascript" src = "js/jquery-ui.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+</head>
+
+<body>
+	<!-- main container starts -->
+	<div id = "container">
+
+		<!-- .header-wrapper starts -->
+		<div id = "header-wrapper">
+
+			<!-- #header1 starts -->
+			<div id = "header1">
+				<a href = "index.html">
+					<img src = "images/logo.png" alt = "logo image">
+				</a> 
+
+				<!-- #initial-menu starts -->
+				<nav>
+					<a href = "about.html">About</a>
+					<a href = "store_info.html">Store Information</a>
+					<a href = "order_online.html">Pricing & Order</a>
+					<a href = "celebrations.html">Celebrations</a>
+					<a href = "wedding.html">Wedding</a>
+					<a href = "data.html">Data</a>
+				</nav>
+
+			</div><!-- #header1 ends -->
+
+			<!-- #header2 starts -->
+			<div id = "header2">
+				<div id = "header2content">
+					<a href = "index.html">
+						<img src = "images/logo2.png" alt = "logo image">
+					</a> 
+					<nav>
+						<a href = "about.html">About</a>
+						<a href = "store_info.html">Store Information</a>
+						<a href = "order_online.html">Pricing & Order</a>
+						<a href = "celebrations.html">Celebrations</a>
+						<a href = "wedding.html">Wedding</a>
+						<a href = "data.html">Data</a>
+					</nav>
+				</div> <!--#header2content ends-->
+			</div> <!--#header2 ends-->
+		</div> <!-- #header-wrapper ends -->
+
+
+
+
+
+		<div id = "content">
+
+			<div id = "data-1">
+				<div id = "show_text">
+					<div id = "show_title">Data</div>
+					<div id = "show_sub_title"></div>
+				</div>
+			</div>
+			<div id = "data-2"></div>
+
+			<!--The following pie chart code is modified from highcharts pie chart code template-->
+			<script>
+			// Build the chart
+			Highcharts.chart('data-2', {
+				chart: {
+					plotBackgroundColor: null,
+					plotBorderWidth: null,
+					plotShadow: false,
+					type: 'pie'
+				},
+				title: {
+					text: 'Product sale in different categories'
+			    },
+				tooltip: {
+					pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+			    },
+				plotOptions: {
+					pie: {
+						allowPointSelect: true,
+						cursor: 'pointer',
+						dataLabels: {
+							enabled: false
+						},
+						showInLegend: true
+					}
+				},
+				series: [{
+					name: 'Brands',
+					colorByPoint: true,
+					data: [{
+						name: 'Breakfast',
+						y: 24,
+						sliced: true,
+						selected: true
+					}, {
+						name: 'Donuts',
+						y: 55
+					}, {
+						name: 'Coffeecakes',
+						y: 10
+					}, {
+						name: 'Sweet Loaves',
+						y: 13
+					}, {
+						name: 'Pie & Tarts',
+						y: 12
+					}, {
+						name: 'Pastries',
+						y: 19
+					}, {
+						name: 'Cookies & Brownies',
+						y: 24
+					}, {
+						name: 'Cakes & Tortes',
+						y: 32
+					}, {
+						name: 'Custom Cakes',
+						y: 7
+					}, {
+						name: 'Bread',
+						y: 35
+					}]
+				}]
+			});
+			</script>
+
+			<div id = "data-3"></div>
+			<script>		
+			Highcharts.chart('data-3', {
+				title: {
+					text: 'Monthly Sale'
+				},
+				xAxis: {
+					categories: ['November', 'December', 'January', 'February', 'March']
+				},
+				labels: {
+					items: [{
+						html: 'Total Sale',
+						style: {
+							left: '50px',
+							top: '18px',
+							color: (Highcharts.theme && Highcharts.theme.textColor) || 'black'
+						}
+					}]
+				},
+				series: [{
+					type: 'column',
+					name: 'Monthly Sale (1000 usd)',
+					data: [290, 500, 400, 300, 350]
+				}, {
+					type: 'spline',
+					name: 'Average',
+					data: [290, 395, 396.6, 372.5, 368],
+					marker: {
+						lineWidth: 2,
+						lineColor: Highcharts.getOptions().colors[3],
+						fillColor: 'white'
+					}
+				}]
+			});
+			</script>
+		</div>
+		
+		<footer>
+			<a href = "https://www.facebook.com/PrantlsBakery"><img src = "images/facebook.png" width = "35" height = "35"></a>
+			<a href = "https://www.instagram.com/about/us/"><img src = "images/instagram.png" width = "35" height = "35"></a>
+			<a href = "https://twitter.com/prantlsbakery"><img src = "images/twitter.png" width = "35" height = "35"></a>
+			<a href = "https://www.yelp.com/biz/prantls-bakery-pittsburgh"><img src = "images/yelp.png" width = "35" height = "35"></a>
+			<h1>Copyright &copy; 2010. Prantls Bakery.</h1>
+			All trademarks including 'Burnt Almond Torte' and related trade<br/> dress are reserved exclusively to Prantl's Bakery under applicable<br/> state law, federal law, and the Lanham Act.<br/>
+			<a href = "mailto:info@prantlsbakery.com">Contact Us</a>
+		</footer>
+	</div>
+</body>
+</html>
